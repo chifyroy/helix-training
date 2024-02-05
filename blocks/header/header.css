@@ -233,18 +233,18 @@ header nav .nav-sections ul > li > ul > li {
     font-size: var(--body-font-size-xs);
   }
 
-  header nav .nav-sections > ul > li {
+  header nav .nav-sections ul > li {
     flex: 0 1 auto;
     position: relative;
     font-weight: 500;
   }
 
-  header nav .nav-sections > ul > li > ul {
+  header nav .nav-sections ul > li > ul {
     display: none;
     position: relative;
   }
 
-  header nav .nav-sections > ul > li[aria-expanded="true"] > ul {
+  header nav .nav-sections ul > li[aria-expanded="true"] > ul {
     display: block;
     position: absolute;
     left: 0;
@@ -256,7 +256,7 @@ header nav .nav-sections ul > li > ul > li {
     box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
   }
   
-  header nav .nav-sections > ul > li > ul::before {
+  header nav .nav-sections ul > li > ul::before {
     content: '';
     position: absolute;
     top: -8px;
@@ -268,7 +268,7 @@ header nav .nav-sections ul > li > ul > li {
     border-bottom: 8px solid var(--highlight-background-color);
   }
 
-  header nav .nav-sections > ul > li > ul > li {
+  header nav .nav-sections ul > li > ul > li {
     padding: 8px 0;
   }
 }

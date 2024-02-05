@@ -1,5 +1,6 @@
 main input,
-main textarea {
+main textarea,
+main select {
   font-size: 1.25rem;
   width: 100%;
   max-width: 50rem;
@@ -15,4 +16,10 @@ main textarea {
 
 main input:hover {
   border: 1px solid var(--text-color);
+}
+
+main input[type="radio"] {
+    width: auto;
+    display: inline-block;
+    margin-right: 10px;
 }
